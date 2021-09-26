@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#575a60"
+    tools:context=".dataBaseRelatedPackage.insert_book">
+
+    <EditText
+        android:id="@+id/bookName"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:background="@drawable/for_text"
+        android:textColor="#262224"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="18dp"
+        android:paddingLeft="10dp"
+        android:hint="Book Name"/>
+    <EditText
+        android:id="@+id/category"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:background="@drawable/for_text"
+        android:textColor="#262224"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="18dp"
+        android:paddingLeft="10dp"
+        android:hint="category"/>
+
+    <EditText
+        android:id="@+id/writer"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:background="@drawable/for_text"
+        android:textColor="#262224"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="18dp"
+        android:paddingLeft="10dp"
+        android:hint="Writer Name"/>
+
+    <EditText
+        android:id="@+id/shelf"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:background="@drawable/for_text"
+        android:textColor="#262224"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="18dp"
+        android:paddingLeft="10dp"
+        android:hint="Shelf no."/>
+
+    <EditText
+        android:id="@+id/serial"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:background="@drawable/for_text"
+        android:textColor="#262224"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="18dp"
+        android:paddingLeft="10dp"
+        android:hint="Serial no."/>
+
+    <Button
+        android:layout_width="320dp"
+        android:id="@+id/save"
+        android:layout_height="55dp"
+        android:textAllCaps="false"
+        android:textColor="#262224"
+        android:text="Save"
+        android:textStyle="bold"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_round"/>
+
+    <Button
+        android:layout_width="320dp"
+        android:id="@+id/update"
+        android:layout_height="55dp"
+        android:textAllCaps="false"
+        android:textColor="#262224"
+        android:text="Update"
+        android:textStyle="bold"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_round"/>
+
+</LinearLayout>
